@@ -1,0 +1,17 @@
+body{
+    font-family: Rodondo;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: auto;
+}
+form{
+    background-color: azure;
+    padding: auto;
+    display: inline-block;
+}
+
+input[type=text]{
+    padding: auto;
+    margin: auto;
+    border: 1px solid black;
+}
