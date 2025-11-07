@@ -2,8 +2,9 @@
 try{
     include 'includes/DatabaseConnection.php';
 
-    $sql = 'SELECT question.id, questiontext, `name`, email FROM question
-            INNER JOIN user ON userid = user.id';
+    $sql = 'SELECT question.id, questiontext, `name`, email, moduleName FROM question
+            INNER JOIN user ON userid = user.id
+            INNER JOIN module ON moduleid = module.id';
 
     $questions = $pdo->query($sql);
     $title = 'Question list';
