@@ -10,7 +10,7 @@
             <div class="header-content">
                 <img class="brand-stamp" src="../../css/images/gn-logo.png" alt="University of Greenwich logo" />
                     <h1>
-                    Welcome to the Student forums main hub
+                    Welcome to the Administration area
                     </h1>
             </div>
         </header>
