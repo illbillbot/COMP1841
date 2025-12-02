@@ -1,0 +1,133 @@
+* {margin: 0; padding: 0; }
+
+
+body {font-family: Arial, Helvetica, Sans-serif; }
+header {display: block;  background-color: #3cbc8d; padding: 20px; border-bottom: 5px solid #757575;}
+#admin{background-color: #666fd2;}
+h1 {font-weight: normal; padding: 1.5em; color: white; text-shadow: 1px 1px 0px #444; width: 1000px; margin: auto;}
+
+nav {background-color: #443A5C;}
+
+nav a {color: white; text-decoration: none;}
+nav a:hover {color: #ddd;}
+nav ul {display: table; width: 1000px; margin: auto;}
+nav li {display: table-cell; text-align: center; padding: 1em;}
+
+main {overflow: auto; min-height: 30vh; background-color: #f7f7f7; width: 1000px; margin: auto; box-shadow: -1000px 0 0 #f7f7f7, 1000px 0 0 #f7f7f7; padding-top: 20px;}
+
+footer {padding: 1em; background-color: #FFC9A7 ; font-size: 0.8em;}
+
+p {margin: 1em; text-align: center; font-size: 1.5em;}
+
+body {font-size: 1.2em; font-family: arial, helvetica, sans-serif}
+input, label, select, textarea {float: left; width: 15em; margin-bottom: 1em;  padding: 0.5em;}
+label {clear: left; padding: 0; margin: 0;}
+input[type="submit"] {margin-left: 20em; width: auto; padding: 0.5em 1em; clear: both; font-size: 1em;}
+input[type="password"] {width: auto; padding: 0.5em; margin-left: 26em;}
+form {overflow: auto; clear: both; display: block;}
+
+blockquote {display: table; margin-bottom: 1em; border-bottom: 1px solid #ccc; padding: 0.5em; }
+blockquote p {display: table-cell; width: 70%; vertical-align: top;}
+blockquote form {  display: table-cell; width: 10%;}
+
+.errors {padding: 1em; border: 1px solid red; background-color: lightyellow; color: red; margin-bottom: 1em; overflow: auto;}
+.errors ul {margin-left: 1em;}
+
+form p {clear: both;}
+input[type="checkbox"] {float: left; clear: left; width: auto; margin-right: 10px;}
+input[type="checkbox"] + label {clear: right;}
+
+.jokelist {display: table;}
+.categories {display: table-cell; width: 20%; background-color: #333; padding: 1em; list-style-type: none;}
+.categories a {color: white; text-decoration: none;}
+.categories li {margin-bottom: 1em;}
+.jokelist .jokes {display: table-cell; padding: 1em;}
+
+.currentpage:before { content: "["; }
+.currentpage:after { content: "]"; }
+
+.form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+/* Undo global float/width for controls inside the container */
+.form-container label,
+.form-container input,
+.form-container select,
+.form-container textarea,
+.form-container input[type="file"] {
+    float: none !important;
+    width: 100% !important;
+    margin: 0 0 15px 0 !important;
+    display: block;
+    box-sizing: border-box;
+}
+
+/* Labels above inputs */
+.form-container label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Specific control sizing (text, email, password) */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="file"],
+.form-container textarea,
+.form-container select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+/* Reset submit button margin and style it */
+.form-container input[type="submit"] {
+    margin: 0;              /* important: clear the global margin-left */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    background: #0077cc;
+    color: white;
+    transition: background 0.25s;
+    display: inline-block;  /* keeps button natural width */
+}
+
+/* Center the submit button horizontally */
+.form-container .form-actions {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Hover */
+.form-container input[type="submit"]:hover {
+    background: #005fa3;
+}
+
+/* Small helper for narrow viewports */
+@media (max-width: 520px) {
+    .form-container { margin: 20px 12px; padding: 18px; }
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* keeps title centered nicely */
+    gap: 20px;               /* spacing between logo and title */
+}
+
+/* Make logo larger */
+.brand-stamp {
+    width: 180px;     /* adjust size */
+    height: auto;
+}
+

@@ -12,7 +12,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="jokes.php">Jokes</a></li>
                 <!-- <li><a href="addjoke.php">Add a Joke</a></li> -->
-                <li><a href="admin/jokes.php">Admin</a></li>
+                <li><a href="admin/login/login.html">Admin login</a></li>
             </ul>
         </nav>
         <main>
